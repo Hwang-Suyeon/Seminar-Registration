@@ -134,6 +134,7 @@ function resetField() {
     document.querySelectorAll(`input[name=fee]:checked`).forEach(e => e.checked = false);
     document.getElementById("location").value = '';
     document.querySelectorAll(`input[name=duty]:checked`).forEach(e => e.checked = false);
+    $file.type = 'text'; $file.type = 'file'; 
     document.getElementById('fileName').innerText = '파일첨부';
 }
 
