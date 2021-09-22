@@ -72,7 +72,7 @@ function cehckForm() {
     let duty = getCheckedValue('duty');
     if (duty.length == 0) {
         document.getElementsByName('duty')[0].focus();
-        alert('직급을 선택하세요.');
+        alert('직책을 선택하세요.');
         return false;
     }
 
